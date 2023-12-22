@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+/* estilos para impressoras*/
+
+
+*{
+    margin: 10px;
+    padding: 10px;
+}
+
+html{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1,7em;
+    line-height: 1.5em;
+}
+
+menu{
+    display: none;
+}
+
+article::after{
+    content: 'esse artigo foi impresso atraves do site kdlmalkda';
+}
+
+article{
+    width: 100%;
+}
